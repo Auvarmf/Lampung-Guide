@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/lgbgblur">
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/loginMember"
+        android:textSize="18sp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/blue"
+        app:cornerRadius = "54dp"/>
+
+    <Button
+        android:id="@+id/btnPublic"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:text="@string/publics"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"
+        app:cornerRadius = "54dp"/>
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnPublic"
+        android:layout_centerHorizontal="true"
+        android:text="@string/daftar"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"
+        app:cornerRadius = "54dp"/>
+
+</RelativeLayout>

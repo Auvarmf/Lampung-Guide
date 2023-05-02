@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.amf.lampungguide'
+    namespace 'com.amf.gd1'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.amf.lampungguide"
+        applicationId "com.amf.gd1"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -29,6 +29,7 @@ android {
 }
 
 dependencies {
+
     //noinspection GradleCompatible,GradleCompatible
     implementation 'com.android.support:design:26.1.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
