@@ -10,20 +10,20 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class LoginMember extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
 
     EditText username;
     EditText password;
     Button loginButton;
 
-    TextView Daftar;
+    TextView Masuk;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_member);
+        setContentView(R.layout.activity_sign_up);
 
-        Daftar = findViewById(R.id.signupText);
+        Masuk = findViewById(R.id.signinText);
 
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
@@ -32,25 +32,25 @@ public class LoginMember extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (username.getText().toString().equals("auvarmf") && password.getText().toString().equals("12345")) {
-                    Toast.makeText(LoginMember.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUp.this, "Sign Up Successful!", Toast.LENGTH_SHORT).show();
 
                     // Intent ke MainMenu
-                    Intent intent = new Intent(LoginMember.this, MainMenu.class);
+                    Intent intent = new Intent(SignUp.this, MainMenu.class);
                     startActivity(intent);
                     // Tutup activity saat ini
                     finish();
                 } else {
-                    Toast.makeText(LoginMember.this, "Gagal Masuk", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUp.this, "Gagal Medaftar", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
-        // Set click listener for Daftar
-        Daftar.setOnClickListener(new View.OnClickListener() {
+        // Set click listener for Masuk
+        Masuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Start the next activity
-                Intent intent = new Intent(LoginMember.this, SignUp.class);
+                Intent intent = new Intent(SignUp.this, LoginMember.class);
                 startActivity(intent);
             }
         });

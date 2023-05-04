@@ -10,6 +10,7 @@ import android.widget.Button;
 public class LoginPilih extends AppCompatActivity {
 
     private Button loginButton;
+    private Button daftarButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,13 +18,24 @@ public class LoginPilih extends AppCompatActivity {
         setContentView(R.layout.activity_login_pilih);
 
         loginButton = findViewById(R.id.btnLogin);
+        daftarButton = findViewById(R.id.btnDaftar);
 
-        // Set click listener for Next button
+        // Set click listener for Login
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Start the next activity
                 Intent intent = new Intent(LoginPilih.this, LoginMember.class);
+                startActivity(intent);
+            }
+        });
+
+        // Set click listener for Daftar
+        daftarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start the next activity
+                Intent intent = new Intent(LoginPilih.this, SignUp.class);
                 startActivity(intent);
             }
         });

@@ -9,8 +9,8 @@
         android:id="@+id/logo_image"
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:layout_marginTop="10dp"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
         android:src="@drawable/logolg" />
 
     <!-- Text "Wisata, Aman Nyaman" -->
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/logo_image"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="35dp"
         android:text="Wisata, Aman Nyaman"
         android:textSize="24sp"
         android:textColor="@color/black"/>
@@ -34,7 +34,7 @@
         android:layout_centerHorizontal="true"
         android:text="@string/next"
         android:textSize="18sp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="@color/blue"
         app:cornerRadius = "54dp"/>
 

@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">GD1</string>
+    <string name="app_name">Lampung Guide</string>
     <string name="next">Next</string>
     <string name="loginMember">Login(Member)</string>
     <string name="publics">Public</string>
     <string name="daftar">Daftar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
