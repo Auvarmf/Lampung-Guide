@@ -44,7 +44,8 @@
                     android:layout_centerHorizontal="true"
                     android:src="@drawable/framebooking1"
                     android:background="?attr/selectableItemBackgroundBorderless"/>
-
             </LinearLayout>
+            
+         </androidx.cardview.widget.CardView>
 
 </FrameLayout>
