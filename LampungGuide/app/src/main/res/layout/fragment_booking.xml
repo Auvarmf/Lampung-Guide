@@ -6,12 +6,6 @@
     tools:context=".BookingFragment"
     android:background="@color/purple_500">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Boking Fragment"
-        android:textSize="20dp"
-        android:layout_gravity="center"/>
+    
 
 </FrameLayout>
