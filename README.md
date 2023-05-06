@@ -20,6 +20,13 @@ https://www.youtube.com/watch?v=9R458HSsgxA
 <img src="https://github.com/Auvarmf/Lampung-Guide/blob/main/LampungGuide/poster%20lampung%20guide%20fix.jpg" style="max-width:50%;">
 
 # Our Team
-<img src="https://github.com/Auvarmf/Lampung-Guide/blob/main/LampungGuide/lgteam.jpg" style="max-width:50%;">
+<img src="https://github.com/Auvarmf/Lampung-Guide/blob/main/LampungGuide/lgteam.jpg" style="max-width:50%;"><hr>
 
-****If you use the Source Code, please make sure to credit and backlink to [Lampung Guide]([https://rivaldi48.blogspot.com/](https://github.com/Auvarmf/Lampung-Guide))***
+****If you use the Source Code, please make sure to credit and backlink to our Instagram <a href="https://www.instagram.com/auvar_mf/" target="_blank">@auvar_mf</a> <a href="https://www.instagram.com/rafliasharij/" target="_blank">@rafliasharij</a> <a href="https://www.instagram.com/frmnahmdd/" target="_blank">@frmnahmdd</a> <a href="https://www.instagram.com/yge_vann78/" target="_blank">@yge_vann78</a>***
+
+****or please make sure to credit and backlink to <a href="https://github.com/Auvarmf/Lampung-Guide" target="_blank">Lampung Guide</a>***<hr>
+
+# Thank You
+
+****Created by &#169;Lampung Guide 2023***
+
