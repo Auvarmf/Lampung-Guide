@@ -13,8 +13,8 @@ https://www.youtube.com/watch?v=tQ2WiNAib98
 # Video Presentasi
 https://www.youtube.com/watch?v=9R458HSsgxA
 
-# Home Screen Aplikasi Lampung Guide
-<img src="https://github.com/Auvarmf/Lampung-Guide/blob/main/LampungGuide/homescreenlg.jpg" style="max-width:50%;">
+# Tampilan Aplikasi Lampung Guide
+<img src="https://github.com/Auvarmf/Lampung-Guide/blob/main/LampungGuide/Tampilan%20Aplikasi%20LG.png" style="max-width:50%;">
 
 # Poster Lampung Guide
 <img src="https://github.com/Auvarmf/Lampung-Guide/blob/main/LampungGuide/poster%20lampung%20guide%20fix.jpg" style="max-width:50%;">
